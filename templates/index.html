@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- {{ bootstrap.load_css() }} -->
+    {{ bootstrap.load_css() }}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
@@ -9,44 +9,55 @@
     <link rel="icon" type="image/x-icon" href="static/images/DD.png">
     
     <title>Diogo Duarte</title>
+</head>
 
-    <div class="container">
-        <header class="header">
+<body>
+    
+    <div class="container d-flex flex-wrap flex-column justify-content-center py-5 px-5">
+
+        <header class="header mb-5">
             <a href=" {{ url_for('home') }}" class="logo">
                 Diogo Duarte
             </a>
-        </header>    
+        </header>
+
+        <section class="about-me mt-5 px-5 py-5 shadow-sm">
+            <div>
+                
+                <h1 class="about-me-title">
+                    
+                    <img src="{{ url_for('static', filename= 'images/joystick.png') }}" alt="image of a joystick" width="40px" height="40px">
+                    
+                    Hey, my name is Diogo. 
+                
+                </h1>
+
+                <p class="about-me"> 
+                    <br>
+                    I'm from Portugal and currently looking for my first job as a developer!
+                </p>
+        
+                <p class="about-me"> 
+                    I'm a self-taught Python developer with a lifelong passion for computers and video games.
+                </p>
+        
+                <p class="about-me">
+                    After six years working in IT, I decided to level up my career and started to learn Python
+                    on my own, while working as a second-line support agent. I also have a background in 
+                    programming,having graduated from high school with a professional course in programming.
+                </p>
+            </div>
+        </section>
+        
+
     </div>
-</head>
-<body>
-    
-    <div class="container">
-        <h1 class="about-me-title"> Hey, my name is Diogo. </h1>
-        <p class="about-me"> 
-            I'm from Portugal and currently looking for my first job as a developer!
-            <br> 
-            I'm a self-taught Python developer with a lifelong passion for computers and video games
-            <br>
-            After six years working in IT, I decided to level up my career and started to learn Python
-            on my own, while working as a second-line support agent. I also have a background in 
-            programming,having graduated from high school with a professional course in programming.
-            <!-- After about 6 years working in IT as a second line support agent, I decided it
-            was time to level up my career and start to self learn python, as I had a background
-            in programming from a 3 year high-school professional course, but at the time decided
-            to work in something else in IT. -->
-        </p>
-    </div>
     
 
-
-
-
-</body>
 
 <!-- <div class="container">
     <footer class="footer">
-
-    </footer>
-</div> -->
-
+        asd
+    </footer> -->
+</div>
+</body>
 </html>
