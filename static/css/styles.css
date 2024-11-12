@@ -1,0 +1,48 @@
+body{
+    font-family: "JetBrains Mono";
+    background-color: #181a1b;
+}
+.container{
+    padding-left: 350px;
+    padding-right: 350px;
+    margin-bottom: 100px;
+}
+
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.349); */
+    font-size: 20px;
+    padding-top: 35px;
+}
+
+.logo{
+    text-decoration: none;
+    user-select: none;
+    color: whitesmoke;    
+}
+
+.logo:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding-top: 35px;
+    border-top: 1px solid whitesmoke;
+}
+
+.about-me{
+    color: whitesmoke;
+    font-size: 20px;
+    line-height: 2.4;
+}
+
+.about-me-title{
+    font-size: 24px;
+    color: whitesmoke;
+    font-weight: 600;
+}
