@@ -13,7 +13,7 @@
 
 <body>
     
-    <div class="container d-flex flex-wrap flex-column justify-content-center py-5 px-5">
+    <div class="container d-flex flex-wrap flex-column py-5 px-5">
 
         <header class="header mb-5">
             <a href=" {{ url_for('home') }}" class="logo">
@@ -21,43 +21,67 @@
             </a>
         </header>
 
-        <section class="about-me mt-5 px-5 py-5 shadow-sm">
-            <div>
-                
-                <h1 class="about-me-title">
+        <section class="about-me mt-5 px-5 py-5 shadow">
+            <h1 class="about-me-title">
                     
-                    <img src="{{ url_for('static', filename= 'images/joystick.png') }}" alt="image of a joystick" width="40px" height="40px">
-                    
-                    Hey, my name is Diogo. 
+                🤖 Hey, my name is Diogo. 
                 
-                </h1>
+            </h1>
 
-                <p class="about-me"> 
-                    <br>
-                    I'm from Portugal and currently looking for my first job as a developer!
-                </p>
+            <p class="about-me"> 
+                <br>
+                I'm from Portugal and currently looking for my first job as a developer!
+            </p>
         
-                <p class="about-me"> 
-                    I'm a self-taught Python developer with a lifelong passion for computers and video games.
-                </p>
+            <p class="about-me"> 
+                I'm a self-taught Python developer with a lifelong passion for tech and video games.
+            </p>
         
-                <p class="about-me">
-                    After six years working in IT, I decided to level up my career and started to learn Python
-                    on my own, while working as a second-line support agent. I also have a background in 
-                    programming,having graduated from high school with a professional course in programming.
-                </p>
+            <p class="about-me">
+                After six years working in IT, I decided to level up my career and started to learn Python
+                on my own, while working as a second-line IT support agent. I also have a background in 
+                programming,having graduated from high school with a professional course in programming.
+            </p>
+        </section>
+
+        <section class="projects d-flex flex-wrap justify-content-between">
+            
+            <div class="card shadow">
+                <h2>Watched movies and series</h2>
+                <img src="images/watched_series_movies.png">
+            </div>
+
+            <div class="card shadow">
+                <h2>asd</h2>
+            </div>
+
+            <div class="card shadow">
+                <h2>asd</h2>
+            </div>
+
+            <div class="card shadow">
+                <h2>asd</h2>
+            </div>
+
+            <div class="card shadow">
+                <h2>asd</h2>
+            </div>
+
+            <div class="card shadow">
+                <h2>asd</h2>
             </div>
         </section>
         
+        <div>
+            <footer class="footer">
+                asd
+            </footer>
+        </div>
 
     </div>
     
 
 
-<!-- <div class="container">
-    <footer class="footer">
-        asd
-    </footer> -->
-</div>
+
 </body>
 </html>

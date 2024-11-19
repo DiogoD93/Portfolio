@@ -2,15 +2,18 @@ body{
     font-family: "JetBrains Mono";
     background-color: #181a1b;
 }
-/* .container{
 
-} */
+h1{
+    font-size: 20px;
+    color: antiquewhite;
+    font-weight: 600;
+}
 
-/* .about-me-container{
-    padding-left: 350px;
-    padding-right: 350px;
-    margin-bottom: 100px;
-} */
+h2{
+    font-size: 15px;
+    font-weight: 400;
+    color: antiquewhite;
+}
 
 .header{
     font-size: 20px;
@@ -20,21 +23,15 @@ body{
 .logo{
     text-decoration: none;
     user-select: none;
-    color: whitesmoke;    
+    color:antiquewhite;    
 }
 
 .logo:hover{
     text-decoration: underline;
 }
 
-.footer{
-    padding-top: 35px;
-    border-top: 1px solid whitesmoke;
-    color: whitesmoke;
-}
-
 .about-me{
-    color: whitesmoke;
+    color: antiquewhite;
     font-size: 16px;
     background-color: #242525;
     line-height: 1.3;
@@ -42,8 +39,23 @@ body{
     border-radius: 30px;
 }
 
-.about-me-title{
-    font-size: 20px;
-    color: whitesmoke;
-    font-weight: 600;
+.projects{
+    margin-top: 100px;
+}
+
+.card{
+    padding: 20px;
+    color:antiquewhite;
+    width: 30%;
+    background-color: #242525;
+    text-align: left;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.footer{
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid antiquewhite;
+    color: antiquewhite;
 }
