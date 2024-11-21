@@ -13,16 +13,16 @@
 
 <body>
     
-    <div class="container d-flex flex-wrap flex-column py-5 px-5">
+    <div class="container py-4 px-5">
 
-        <header class="header mb-5">
+        <header class="header mb-4">
             <a href=" {{ url_for('home') }}" class="logo">
                 Diogo Duarte
             </a>
         </header>
 
         <section class="about-me mt-5 px-5 py-5 shadow">
-            <h1 class="about-me-title">
+            <h1>
                     
                 🤖 Hey, my name is Diogo. 
                 
@@ -46,46 +46,29 @@
 
         <section class="projects d-flex flex-wrap justify-content-between">
             
-            <div class="card shadow">
-                <img src="static/images/watched_series_movies.png">
+            <div class="card shadow d-flex">
+                <img src="static/images/watched_series_movies.png" alt="watched series and movies website project">
                 <h2>Watched movies and series</h2>
                 <p> Small project to save a list of the movies and series I watched or am watching, using the The Movie Database API. </p>
-                <img src="static/images/python.png" class="card-icons">
-                <img src="static/images/css.png" class="card-icons">
-                <img src="static/images/html.png" class="card-icons">
-            </div>
-
-            <div class="card shadow">
-                <h2>asd</h2>
-            </div>
-
-            <div class="card shadow">
-                <h2>asd</h2>
-            </div>
-
-            <div class="card shadow">
-                <h2>asd</h2>
-            </div>
-
-            <div class="card shadow">
-                <h2>asd</h2>
-            </div>
-
-            <div class="card shadow">
-                <h2>asd</h2>
-            </div>
+                <div class="d-flex flex-wrap flex-row justify-content-evenly">
+                    <img src="static/images/python.png" class="card-icons" alt="python icon" title="Python icon">
+                    <img src="static/images/css.png" class="card-icons" alt="python icon" title="CSS icon">
+                    <img src="static/images/html.png" class="card-icons" alt="html icon" title="HTML icon">                    
+                </div>
+            </div>                   
+            
         </section>
         
-        <div>
-            <footer class="footer">
-                asd
-            </footer>
-        </div>
+        <footer class="footer">
+            <div class="d-flex flex-row">
 
+                <p>© 2024 Diogo Duarte</p>
+
+                <a href="https://www.linkedin.com/in/diogogoncaloduarte/" target="_blank"> <img src="static/images/linkedin.png" alt="linkedin icon" class="socials-icon"> </a>
+                <a href="https://github.com/DiogoD93" target="_blank"> <img src="static/images/github.png" alt="github icon" class="socials-icon"> </a>
+        
+            </div>
+        </footer>
     </div>
-    
-
-
-
 </body>
 </html>

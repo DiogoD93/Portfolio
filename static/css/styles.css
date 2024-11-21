@@ -33,7 +33,7 @@ h2{
 .about-me{
     color: antiquewhite;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     background-color: #242525;
     line-height: 1.3;
     text-align: left;
@@ -67,6 +67,7 @@ h2{
     font-size: 14px;
     font-weight: 400;
     line-height: 1.3;
+    margin-bottom: 30px;
 }
 
 .card-icons{
@@ -79,4 +80,10 @@ h2{
     padding-top: 20px;
     border-top: 1px solid antiquewhite;
     color: antiquewhite;
+}
+
+.socials-icon{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
 }
