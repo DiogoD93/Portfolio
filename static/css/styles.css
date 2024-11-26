@@ -1,6 +1,7 @@
 body{
     font-family: "JetBrains Mono";
-    background-color: #181a1b;
+    /* background-color: #181a1b; */
+    background: linear-gradient(45deg, rgba(24,26,27,1) 0%, rgba(52,59,61,1) 50%, rgba(24,26,27,1) 100%);
 }
 
 h1{
@@ -51,7 +52,7 @@ h2{
     background-color: #242525;
     text-align: left;
     margin-bottom: 30px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .card-image{
@@ -61,7 +62,7 @@ h2{
 }
 
 .card-image:hover{    
-    filter: drop-shadow(5px 5px 5px gray);
+    filter: drop-shadow(3px 3px 3px gray);
     scale: 1.1;
 }
 
